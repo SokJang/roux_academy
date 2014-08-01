@@ -1,0 +1,8 @@
+# gitignore
+*.txt
+
+
+# Packdateien
+*.zip
+*.tar
+*.rar
