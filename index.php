@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/mystyles.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,11 +14,10 @@
     <![endif]-->
   </head>
   <body>
+    
     <h1>Hello, world!</h1>
-
     
     
-    <script src="_/js/jquery.js"></script>
     <script src="_/js/bootstrap.js"></script>
   </body>
 </html>

@@ -24,6 +24,7 @@
  * Date: 2014-05-01T17:42Z
  */
 
+ //@prepros-append jquery.js
  //@prepros-append affix.js
  //@prepros-append alert.js
  //@prepros-append button.js
@@ -35,3 +36,4 @@
  //@prepros-append scrollspy.js
  //@prepros-append tab.js
  //@prepros-append transition.js
+ //@prepros-append myjs.js
