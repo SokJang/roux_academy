@@ -6,3 +6,7 @@
 *.zip
 *.tar
 *.rar
+
+# Packdateien
+*_/assets/
+*_/components/
