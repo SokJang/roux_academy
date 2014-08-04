@@ -25,5 +25,6 @@
     
     <script src="_/js/jquery.js"></script>
     <script src="_/js/bootstrap.js"></script>
+    <script src="_/js/myjs.js"></script>
   </body>
 </html>
