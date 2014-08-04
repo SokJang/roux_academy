@@ -16,18 +16,16 @@
   </head>
   <body id="home">
     
-    <header>
-      <nav></nav>
-    </header>
-    
     <section class="container">
-
-      <article></article>
-      <aside></aside>
-    </section><!-- container -->
-    
-    <footer></footer>
-    
+      <div class="content row">
+        <section class="main col col-lg-8">
+          
+        </section><!-- main -->
+        <section class="sidebar col col-lg-4">
+          
+        </section><!-- sidebar -->
+      </div><!-- content -->
+    </section><!-- container -->    
     
     <script src="_/js/bootstrap.js"></script>
   </body>
