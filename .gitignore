@@ -10,3 +10,4 @@
 # Packdateien
 *_/assets/
 *_/components/
+*_/components/!php
