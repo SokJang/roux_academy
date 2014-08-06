@@ -8,6 +8,6 @@
 *.rar
 
 # Packdateien
-*_/assets/
-*_/components/
-*_/components/!php
+_/assets/
+_/components/
+!_/components/php
