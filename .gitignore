@@ -7,7 +7,12 @@
 *.tar
 *.rar
 
-# Packdateien
+# Folders
 _/assets/
-_/components/
-!_/components/php
+_/components/js/
+_/components/less/
+
+
+# Sublime
+roux.sublime-project
+roux.sublime-workspace
