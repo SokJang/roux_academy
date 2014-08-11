@@ -21,4 +21,22 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});//hover
 
+	//show modals
+	$("[data-toggle='tooltip']").tooltip({ animation:true });
+
+	//modal photos
+	$('.modalphotos img').on('click', function() {
+		$('#modal').modal({
+			show: true,
+		})
+
+		var mysrc = this.src.substr(0, this.src.length-7) + '.jpg';
+
+		$('#modalimage').attr('src', mysrc);
+
+		$('#modalimage').on('click', function() {
+			$('#modal').modal('hide');
+		})
+	});
+
 }); //jQuery is loaded
