@@ -21,4 +21,10 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});//hover
 
+<<<<<<< HEAD
+=======
+	//tooltip
+	$("[data-toggle='tooltip']").tooltip({ animation:true });
+
+>>>>>>> carousel
 }); //jQuery is loaded
