@@ -11,4 +11,3 @@
 //@prepros-append "popover.js"
 //@prepros-append "scrollspy.js"
 //@prepros-append "tab.js"
-//@prepros-append "myjs.js"
