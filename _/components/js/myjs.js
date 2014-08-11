@@ -21,7 +21,7 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});//hover
 
-	//show modals
+	//show tooltips
 	$("[data-toggle='tooltip']").tooltip({ animation:true });
 
 	//modal photos
