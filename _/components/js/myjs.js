@@ -11,11 +11,13 @@ $(function() {
 
 
 	//make menus drop automatically
-	//Selects ul element with class nav and selcts from there the li element with the class dropdown
-						// on hover the function triggers
+	//Selects ul with class nav and selects li with class dropdown 
+	//triggers on hover a function to element with the class dropdown-menu
+	//on hover the element fades in
 	$('ul.nav li.dropdown').hover(function() {
 		$('.dropdown-menu', this).fadeIn();
-	}, function() {
+		// on hover out dropdown-menu hovers out
+		}, function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});//hover
 
