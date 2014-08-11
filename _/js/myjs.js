@@ -1,5 +1,12 @@
 $(function() {
 
+	//activate schedule tabs
+
+	var hash = window.location.hash;
+	// if hash exists and ul with class nav exists with an anchor tag
+	// look for the hash and show it
+	hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
 	//highlight the current nav
 	//Selects the elemtent: dependend on the page id (Home) and dependend on the content eg 'Home' between the a tag
 								// adds class 'active' to the parent element which is li tag
