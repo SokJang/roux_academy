@@ -21,4 +21,7 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});//hover
 
+	//tooltip
+	$("[data-toggle='tooltip']").tooltip({ animation:true });
+
 }); //jQuery is loaded
