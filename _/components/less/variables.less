@@ -16,13 +16,23 @@
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
+// my colors
+@red:					#BA83D4;
+@magenta:				#FDF5E3;
+@beige:					#FDF5E3;
+@yellow:				#FDAD22;
+@purple:				#475C98;
+@darkblue:				#586E75;
+@pink:					#D33682;
+
+
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
+@brand-primary:         @purple;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
+@brand-danger:          @pink;
 @brand-info:            #5bc0de;
 
 // Scaffolding
@@ -45,7 +55,10 @@
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@headlineFontFamily:	  "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:		  Merriweather, Georgia, "Times New Roman", Times, serif;
+
+@font-size-base:          16px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 @font-size-mini:          ceil(@font-size-base * 0.75); // ~11px
@@ -176,17 +189,17 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    50px;
-@navbar-color:                     #777;
-@navbar-bg:                        #eee;
+@navbar-height:                    35px;
+@navbar-color:                     @pink;
+@navbar-bg:                        darken(@pink, 5%);
 
 // Navbar links
-@navbar-link-color:                #777;
-@navbar-link-hover-color:          #333;
-@navbar-link-hover-bg:             transparent;
-@navbar-link-active-color:         #555;
-@navbar-link-active-bg:            darken(@navbar-bg, 10%);
-@navbar-link-disabled-color:       #ccc;
+@navbar-link-color:                @beige;
+@navbar-link-hover-color:          @yellow;
+@navbar-link-hover-bg:             darken(@purple, 10%);
+@navbar-link-active-color:         @beige;
+@navbar-link-active-bg:            @purple;
+@navbar-link-disabled-color:       darken(@pink, 10%);
 @navbar-link-disabled-bg:          transparent;
 
 // Navbar brand label
