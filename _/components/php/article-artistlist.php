@@ -18,5 +18,20 @@
 			</ul><!-- nav-list -->
 		</section><!-- scrollspy -->
 
+		<section class="artistinfo col col-lg-9">
+			<?php include 'snippet_artist_Barot_Bellingham.php'; ?>
+			<?php include 'snippet_artist_Gerard_Donahue.php'; ?>
+			<?php include 'snippet_artist_Jonathan_Ferrar.php'; ?>
+			<?php include 'snippet_artist_Lorenzo_Garcia.php'; ?>
+			<?php include 'snippet_artist_Hillary_Goldwynn.php'; ?>
+			<?php include 'snippet_artist_Hassum_Harrod.php'; ?>
+			<?php include 'snippet_artist_Jennifer_Jerome.php'; ?>
+			<?php include 'snippet_artist_LaVonne_LaRue.php'; ?>
+			<?php include 'snippet_artist_Riley_Rewington.php'; ?>
+			<?php include 'snippet_artist_Constance_Smith.php'; ?>
+			<?php include 'snippet_artist_Xhou_Ta.php'; ?>
+			<?php include 'snippet_artist_Richard_Tweed.php'; ?>
+		</section><!-- artistinfo -->
+
 	</div><!-- artistindex -->
 </section><!-- artistlist -->
