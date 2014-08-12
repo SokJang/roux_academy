@@ -29,10 +29,10 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
+@brand-primary:         @purple;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
+@brand-danger:          @pink;
 @brand-info:            #5bc0de;
 
 // Scaffolding
@@ -55,7 +55,10 @@
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@headlineFontFamily:	  "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:		  Merriweather, Georgia, "Times New Roman", Times, serif;
+
+@font-size-base:          16px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 @font-size-mini:          ceil(@font-size-base * 0.75); // ~11px
