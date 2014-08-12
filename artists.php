@@ -7,7 +7,7 @@
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
   </head>
-  <body id="artists">
+  <body id="artists" data-spy="scroll" data-target=".scrollspy"><!-- data-target targets the section - in article-artistlist.php - with the class of scrollsyp -->
 
 		<section class="container">
       <div class="content row">
