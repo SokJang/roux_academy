@@ -7,6 +7,16 @@ $(function() {
 	// look for the hash and show it
 	hash && $('ul.nav a[href="' + hash + '"]').tab('show');
 
+	// controlling opening of accordions
+	$('#monday.accordion-body').addClass('in');
+
+	$('#artists #tuesday.accordion-body').addClass('in');
+	$('#artists #wednesday.accordion-body').addClass('in');
+	$('#artists #thursday.accordion-body').addClass('in');
+	$('#artists #friday.accordion-body').addClass('in');
+
+	$('#register #monday.accordion-body').removeClass('in');
+
 	//highlight the current nav
 	//Selects the elemtent: dependend on the page id (Home) and dependend on the content eg 'Home' between the a tag
 								// adds class 'active' to the parent element which is li tag
