@@ -17,6 +17,11 @@ $(function() {
 
 	$('#register #monday.accordion-body').removeClass('in');
 
+	// bootstrap classes to photos
+	$('.abouttheartists img').addClass('img-circle');
+	$('aside.photosfromlastyear img').addClass('img-thumbnail');
+	$('.artistinfo .photogrid img').addClass('img-thumbnail');
+
 	//highlight the current nav
 	//Selects the elemtent: dependend on the page id (Home) and dependend on the content eg 'Home' between the a tag
 								// adds class 'active' to the parent element which is li tag
